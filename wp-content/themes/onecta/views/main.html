@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Onecta</title>
+        <link rel="stylesheet" href="/wp-content/themes/onecta/assests/style.css">
+        <link rel="icon" href="./favicon.ico" type="image/x-icon">
+    </head>
+    <body>
+        <div class="main-block">
+            <form action="/wp-content/themes/onecta/send.php">
+                <h1>Свяжитесь с нами</h1>
+                <div class="info">
+                    <input type="text" name="name" placeholder="ФИО" required>
+                    <input type="email" name="email" placeholder="Почта" required>
+                    <input type="text" name="phone" placeholder="Номер телефона" required>
+                </div>
+                <p>Текст</p>
+                <div>
+                    <textarea name="text" rows="4" required></textarea>
+                </div>
+                <button type="submit" href="/">Отправить</button>
+            </form>
+        </div>
+    </body>
+</html>

@@ -2,3 +2,4 @@
 .vscode
 wp-config.php
 *.log
+.env
